@@ -1,0 +1,65 @@
+# Bu .gitignore dosyası Unity projeleri için önerilen temel ayarları içerir.
+# Daha spesifik ayarlar eklemek isteyebilirsiniz.
+
+# Unity tarafından otomatik olarak oluşturulan klasörler ve dosyalar
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Proje özel dosyaları
+/*.booproj
+/*.svd
+/*.userprefs
+/*.csproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.unityproj
+/*.dll
+/*.pdb
+
+# Yedek dosyalar ve otomatik kaydedilen dosyalar
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/AssetStoreUploader*
+/[Aa]ssets/EditorCrashlytics*
+/[Aa]ssets/GooglePlayDownloader*
+/[Aa]ssets/PlayServicesResolver*
+/[Aa]ssets/Unsaved*
+/[Aa]ssets/Uploading*
+/[Aa]ssets/dependencies*
+
+# Örnekler ve ekstra içerik
+/[Aa]ssets/Example*
+
+# macOS spesifik dosyalar
+.DS_Store
+._*
+
+# Windows spesifik dosyalar
+Thumbs.db
+
+# Visual Studio dosyaları
+.vscode/
+
+# Rider dosyaları
+.idea/
+
+# Projenin düzenleme sonucu oluşan dosyalar
+/*.pidb
+/*.booproj.user
+
+# Proje önbelleği
+/[Uu]nity[Cc]ache/
+/Library/ShaderCache/
+/Library/ScriptAssemblies/
+
+# Derleme sonuçları
+/[Bb]uild/
+
+# Görsel Studio Code proje dosyaları
+.vscode/
